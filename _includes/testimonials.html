@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-5">
         <img
-          src="{{site.url}}{{site.baseurl}}{{ site.data.settings.textimonials_settings.image }}"
+          src="{{relative_url}}{{ site.data.settings.textimonials_settings.image }}"
           alt=""
         />
       </div>
@@ -28,7 +28,7 @@
             nil or author_image == "" %} {% assign author_image =
             "/assets/images/testimonial/avatar.webp" %} {% endif %}
             <img
-              src="{{site.url}}{{site.baseurl}}{{ author_image }}"
+              src="{{relative_url}}{{ author_image }}"
               alt=""
               class="author-img"
             />
