@@ -92,7 +92,7 @@ textimonials_settings:
       date: "January 23, 2024"
       rating: 5
       text: "From the initial stages of the project to its completion, Najam exhibited a thorough understanding of the requirements and helped in completing the project ensuring that the codebase was not only robust but also maintainable. Thanks brother"
-      image: "https://media.licdn.com/dms/image/v2/C5103AQG5P_-Bp0w3Cw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1582536557877?e=1769644800&v=beta&t=W54IpYnfLXty4KQndlEcIzOyDD2fxHlOnSmTtEGeJY8"
+      image: "/assets/images/testimonial/1582536557877.jpeg"
     - name: "Victoria González"
       position: "Information Security Expert"
       date: "January 22, 2024"
