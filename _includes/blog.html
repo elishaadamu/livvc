@@ -26,7 +26,7 @@
         <div class="single-blog-area">
           {% if post.post_image %}
           <div class="single-blog-img">
-            <a href="{{post.url}}"
+            <a href="{{relative_url}}/{{post.url}}"
               ><img
                 src="{{post.post_image}}"
                 class="img-fluid"
@@ -45,7 +45,7 @@
               ><p class="styled-para">{{post.title | truncate: 50}}</p></a
             >
             <a href="{{post.url}}" class="blog-read-more"
-              >Raed More <i class="fa fa-arrow-right"></i
+              >Read More <i class="fa fa-arrow-right"></i
             ></a>
           </div>
         </div>

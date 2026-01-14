@@ -33,7 +33,12 @@
               class="author-img"
             />
             <h5 class="author-name">
-              {{ textimonial.name }} <span>{{ textimonial.position }}</span>
+              {% if textimonial.name %}{{ textimonial.name }}{% else
+              %}Anonymous{% endif %}
+              <span
+                >{% if textimonial.position %}{{ textimonial.position }}{% else
+                %}Not given{% endif %}</span
+              >
               {% if textimonial.date %}
               <span
                 style="

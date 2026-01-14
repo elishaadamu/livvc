@@ -806,7 +806,7 @@ header {
 .about-us-area .row {
   position: relative;
   z-index: 1;
-  padding: 150px 0;
+  padding: 100px 0;
 }
 .about-us-img {
   position: absolute;
@@ -815,7 +815,7 @@ header {
 .about-img-2 {
   position: absolute;
   left: 0;
-  margin-top: -500px;
+  margin-top: -600px;
   z-index: -1;
 }
 .about-img-1 {
@@ -1327,7 +1327,7 @@ header {
    12. PROJECTS css
 ----------------------------------------*/
 .project-counter-area {
-  padding-top: 270px;
+  padding-top: 100px;
   padding-bottom: 130px;
 }
 .btn.counter-btn {
@@ -1585,7 +1585,10 @@ header {
   color: #fff;
   margin-top: 30px;
 }
-
+.btn.blog-btn:hover {
+  background: #1f2732 !important;
+  color: #fff;
+}
 .single-blog-content {
   padding: 35px;
   background: #121d47;
@@ -1972,7 +1975,7 @@ header {
   font-size: 14px;
 }
 .single-blog-details-box ul li {
-  display: inline-block;
+  list-style-type: disc;
 }
 .single-blog-details-box ul li {
   margin-left: 12px;
@@ -2280,8 +2283,8 @@ h4.blog-details-heading::after {
 }
 .single-news-box {
   border-bottom: 1px solid #d7d7d7;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .recent-news-area .single-news-box:last-child {
   border-bottom: 1px solid transparent;
@@ -2355,14 +2358,17 @@ h4.blog-details-heading::after {
 }
 .blog-tabs a {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 10px 15px;
   transition: 0.3s ease-in-out;
   color: #7f7f7f;
+  border: 1px solid #f26c4f;
+  border-radius: 5px;
+  margin: 5px;
 }
 .blog-tabs a:hover {
   background: #f26c4f;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .absolute-colored-box-contetn {

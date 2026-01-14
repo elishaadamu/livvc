@@ -1,10 +1,10 @@
-title: "Livvic Premium Jekyll Theme"
-email: "tortoizthemes@gmail.com"
+title: "Najam Ul Saqib"
+email: "najam@exfiltra.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/livvc" # the subpath of your site, e.g. /blog
+  I’m Najam — a security consultant, AppSec & CloudSec practitioner,
+  FOSS enthusiast, and founder of Exfiltra, a company focused on
+  making application and cloud security headache-free for engineering teams.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elishaadamu.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #General Settings

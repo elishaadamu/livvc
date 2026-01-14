@@ -6,7 +6,7 @@ blogs_settings:
   title: News & blog
   description: Latest Articles For New Project
   button:
-    name: "view all news"
+    name: "view all blogs"
     link: "/blog/"
 
 videos_settings:
@@ -55,16 +55,13 @@ projects_settings:
   counter:
     - icon: '<i class="fas fa-rocket"></i>'
       name: "Project completed"
-      count: 6320
+      count: 55
     - icon: '<i class="fas fa-life-ring"></i>'
       name: "Satisfied Clients"
-      count: 8563
+      count: 27
     - icon: '<i class="fas fa-trophy"></i>'
       name: "Awards Won"
-      count: 963
-    - icon: '<i class="fas fa-universal-access"></i>'
-      name: "Expert Team Member"
-      count: 4975
+      count: 6
 
 portfolios_settings:
   title: About Us
@@ -98,6 +95,16 @@ textimonials_settings:
       date: "January 22, 2024"
       rating: 5
       text: "I've had the privilege of working closely with Najam on several security projects, and I have been consistently impressed by their expertise and professionalism. He possesses a deep understanding of security vulnerabilities and their ability to identify and address potential threats is truly remarkable."
+      image: ""
+    - position: "Azure Architecture Validation & Implementation (IoT Hub, Logic Apps, Service Bus, Blob Storage)"
+      date: "Jul 11, 2025 - Sep 29, 2025"
+      rating: 5
+      text: "Najam is an excellent resource and I would have no hesitation in hiring him again. He completed a complex Azure Architecture piece of work and I was very impressed with his ability to solve problems and get the job done. He held the team to high standards and was prompt and reliable with his delivery."
+      image: ""
+    - position: "Microsoft Defender for Business Roll-Out (Windows 11 PCs + macOS) - M365 Business Premium"
+      date: "Jul 31, 2025 - Aug 6, 2025"
+      rating: 5
+      text: "Really appreciated working with Najam. He was very professional, diligent, and accommodating. I will definitely come back to him for my next IT security job."
       image: ""
 
 abouts_settings:
