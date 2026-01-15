@@ -1,10 +1,10 @@
 teams_settings:
-  title: our team member
-  description: Meet Our Most Creative Minds That’s Are Professional
+  title: Collaborators & Experts
+  description: Meet the brilliant minds I collaborate with
 
 blogs_settings:
-  title: News & blog
-  description: Latest Articles For New Project
+  title: Blog & Insights
+  description: My latest thoughts and discoveries
   button:
     name: "view all blogs"
     link: "/blog/"
@@ -47,8 +47,8 @@ services_settings:
       url: "#"
 
 projects_settings:
-  title: company fact
-  description: Our Teams Achivement Journey
+  title: Key Achievements
+  description: My Journey and Achievements
   button:
     name: "get started "
     link: "#"
@@ -64,8 +64,8 @@ projects_settings:
       count: 6
 
 portfolios_settings:
-  title: About Us
-  description: Most Creative Agency For Your Project
+  title: My Portfolio
+  description: A showcase of my creative work
   button:
     name: "View more"
     link: "#"
@@ -108,8 +108,8 @@ textimonials_settings:
       image: ""
 
 abouts_settings:
-  title: About Us
-  description: Most Creative Agency For Your Project
+  title: About Me
+  description: My background, skills, and passion
   image: "/assets/images/about-us/najam.png"
   image2: "/assets/images/about-us/2.png"
   text: A
