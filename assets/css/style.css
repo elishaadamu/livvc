@@ -39,7 +39,7 @@
 /*===========================
     1. COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800&display=swap");
+/* Google Fonts now loaded in HTML head for better performance */
 
 body {
   font-family: "Poppins", sans-serif;

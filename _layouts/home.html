@@ -11,51 +11,64 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <!--====== Bootstrap css ======-->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
+    <!--====== Bootstrap css (critical) ======-->
     <link
       rel="stylesheet"
       href="{{site.url}}{{site.baseurl}}/assets/css/bootstrap.min.css"
     />
-    <!--====== Fontawesome pro css ======-->
+    <!--====== Style css (critical) ======-->
+    <link
+      rel="stylesheet"
+      href="{{site.url}}{{site.baseurl}}/assets/css/style.css"
+    />
+    <!--====== Fontawesome pro css (deferred) ======-->
     <link
       rel="stylesheet"
       href="{{site.url}}{{site.baseurl}}/assets/css/all.css"
+      media="print"
+      onload="this.media='all'"
     />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <!--====== Magnific Popup css ======-->
+    <!--====== Magnific Popup css (deferred) ======-->
     <link
       rel="stylesheet"
       href="{{site.url}}{{site.baseurl}}/assets/css/magnific-popup.css"
+      media="print"
+      onload="this.media='all'"
     />
-    <!--====== Slick css ======-->
+    <!--====== Slick css (deferred) ======-->
     <link
       rel="stylesheet"
       href="{{site.url}}{{site.baseurl}}/assets/css/slick.css"
+      media="print"
+      onload="this.media='all'"
     />
-    <!--====== Slick css ======-->
+    <!--====== Slick menu css (deferred) ======-->
     <link
       rel="stylesheet"
       href="{{site.url}}{{site.baseurl}}/assets/css/slick-menu.css"
+      media="print"
+      onload="this.media='all'"
     />
-    <!--====== Default css ======-->
+    <!--====== Default css (deferred) ======-->
     <link
       rel="stylesheet"
       href="{{site.url}}{{site.baseurl}}/assets/css/default.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <!--====== Responsive css (deferred) ======-->
+    <link
+      rel="stylesheet"
+      href="{{site.url}}{{site.baseurl}}/assets/css/responsive.css"
+      media="print"
+      onload="this.media='all'"
     />
     <link
       rel="shortcut icon"
       type="image/x-icon"
       href="{{site.url}}{{site.baseurl}}/assets/images/favicon.png"
-    />
-    <!--====== Style css ======-->
-    <link
-      rel="stylesheet"
-      href="{{site.url}}{{site.baseurl}}/assets/css/style.css"
-    />
-    <!--====== Style css ======-->
-    <link
-      rel="stylesheet"
-      href="{{site.url}}{{site.baseurl}}/assets/css/responsive.css"
     />
     <title>
       {% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}
@@ -121,5 +134,10 @@
     <script src="{{site.url}}{{site.baseurl}}/assets/js/simple-jekyll-search.min.js"></script>
     <!--====== Main js ======-->
     <script src="{{site.url}}{{site.baseurl}}/assets/js/main.js"></script>
+    <!--====== Tailwind CSS (moved to end for non-blocking load) ======-->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"
+    ></script>
   </body>
 </html>
