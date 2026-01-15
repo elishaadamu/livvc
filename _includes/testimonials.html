@@ -3,21 +3,10 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-5">
-        <picture>
-          <source
-            srcset="
-              {{site.url}}{{site.baseurl}}/assets/images/testimonial/1.webp
-            "
-            type="image/webp"
-          />
-          <img
-            src="{{site.url}}{{site.baseurl}}{{ site.data.settings.textimonials_settings.image }}"
-            alt="Client testimonials and reviews"
-            loading="lazy"
-            width="382"
-            height="505"
-          />
-        </picture>
+        <img
+          src="{{site.url}}{{site.baseurl}}{{ site.data.settings.textimonials_settings.image }}"
+          alt=""
+        />
       </div>
       <div class="col-lg-7 textimonial-carousel-active">
         {% for textimonial in
@@ -40,9 +29,8 @@
             "/assets/images/testimonial/avatar.webp" %} {% endif %}
             <img
               src="{{site.url}}{{site.baseurl}}{{ author_image }}"
-              alt="{{ textimonial.name | default: 'Anonymous' }} - {{ textimonial.position | default: 'Testimonial author' }}"
+              alt=""
               class="author-img"
-              loading="lazy"
             />
             <h5 class="author-name">
               {% if textimonial.name %}{{ textimonial.name }}{% else
